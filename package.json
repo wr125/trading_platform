@@ -1,0 +1,39 @@
+{
+  "name": "trading_platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^2.16.1",
+    "@anthropic-ai/sdk": "^0.14.1",
+    "@firebase/auth": "^1.9.0",
+    "@polygon.io/client-js": "^7.3.2",
+    "@types/react-datepicker": "^7.0.0",
+    "ai": "^3.0.12",
+    "firebase": "^11.3.1",
+    "lightweight-charts": "^4.2.3",
+    "next": "^14.1.0",
+    "openai": "^4.28.4",
+    "react": "^18.2.0",
+    "react-datepicker": "^8.1.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "recharts": "^2.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
